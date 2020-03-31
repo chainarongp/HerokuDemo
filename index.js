@@ -23,7 +23,6 @@ app.get('/', (req, res) =>
     title: 'Member App',
     members
   })
-  
 );
  
 // Set static folder
