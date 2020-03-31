@@ -24,7 +24,7 @@ app.get('/', (req, res) =>
     members
   })
 );
-
+ 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
